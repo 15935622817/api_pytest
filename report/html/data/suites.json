@@ -1,0 +1,137 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_login.Test_login.test_login",
+      "uid" : "d693b06ed64cce00",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609171778,
+        "stop" : 1554609171899,
+        "duration" : 121
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  }, {
+    "name" : "testsys",
+    "children" : [ {
+      "name" : "test_sys_changepwd.Test_changepwd.test_changpwd",
+      "uid" : "d847a0ab260fa425",
+      "parentUid" : "8a83114e6cba2b6cc0b07c31f264f554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609171900,
+        "stop" : 1554609171961,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_sys_login.Test_login.test_login_success",
+      "uid" : "2d28c3cd86ed17d",
+      "parentUid" : "8a83114e6cba2b6cc0b07c31f264f554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172021,
+        "stop" : 1554609172064,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8a83114e6cba2b6cc0b07c31f264f554"
+  }, {
+    "name" : "user",
+    "children" : [ {
+      "name" : "test_user_loaduserinfo.Test_login.test_login_success",
+      "uid" : "7de34c42c6934b4a",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172065,
+        "stop" : 1554609172124,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_loaduserinfo.Test_loaduserinfo.test_loaduserinfo",
+      "uid" : "75caf894feb40b3c",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172127,
+        "stop" : 1554609172191,
+        "duration" : 64
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_loaduserlist.Test_loaduserlist.test_loaduserlist",
+      "uid" : "935eb274979d8dad",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609172194,
+        "stop" : 1554609172293,
+        "duration" : 99
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_regist.Test_loaduserinfo.test_loaduserinfo",
+      "uid" : "1ea608454ed12710",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172294,
+        "stop" : 1554609172352,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_regist.Test_loaduserlist.test_loaduserlist",
+      "uid" : "aa6698c8a0a628bd",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609172352,
+        "stop" : 1554609172399,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_regist.Test_register.test_register_success",
+      "uid" : "ce93cb522c62c23c",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609172401,
+        "stop" : 1554609172463,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_regist.Test_register.test_login_success",
+      "uid" : "c383fae51fe245a",
+      "parentUid" : "360525663768bab144fd381f0b82e654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172464,
+        "stop" : 1554609172678,
+        "duration" : 214
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "360525663768bab144fd381f0b82e654"
+  } ]
+}

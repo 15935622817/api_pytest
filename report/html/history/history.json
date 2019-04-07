@@ -1,0 +1,195 @@
+{
+  "3c92835ef1dceebb0e9f61f4bcdede6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75caf894feb40b3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172127,
+        "stop" : 1554609172191,
+        "duration" : 64
+      }
+    } ]
+  },
+  "ace158534d850380e8042a1272ac1de4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7de34c42c6934b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172065,
+        "stop" : 1554609172124,
+        "duration" : 59
+      }
+    } ]
+  },
+  "768fb3a0e133be2deb798e4397afa27f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "935eb274979d8dad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '52890543' == 'zhizhi'\n  - 52890543\n  + zhizhi",
+      "time" : {
+        "start" : 1554609172194,
+        "stop" : 1554609172293,
+        "duration" : 99
+      }
+    } ]
+  },
+  "c5a3ee7fcc18977bde48160ab08ceeea" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce93cb522c62c23c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == 401",
+      "time" : {
+        "start" : 1554609172401,
+        "stop" : 1554609172463,
+        "duration" : 62
+      }
+    } ]
+  },
+  "79713b142bbc24bb57d814bcd0d504ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d847a0ab260fa425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609171900,
+        "stop" : 1554609171961,
+        "duration" : 61
+      }
+    } ]
+  },
+  "42712150df8679126f0bec24a61fc470" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d28c3cd86ed17d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172021,
+        "stop" : 1554609172064,
+        "duration" : 43
+      }
+    } ]
+  },
+  "1070bb5d0880c259a5c7c362abbae50b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa6698c8a0a628bd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '52890543' == 'zhizhi'\n  - 52890543\n  + zhizhi",
+      "time" : {
+        "start" : 1554609172352,
+        "stop" : 1554609172399,
+        "duration" : 47
+      }
+    } ]
+  },
+  "dc5a651a36adc745469a3582e7d12ab2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ea608454ed12710",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172294,
+        "stop" : 1554609172352,
+        "duration" : 58
+      }
+    } ]
+  },
+  "c9d1512d3279739bd6cf2b06aa3c18af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c383fae51fe245a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609172464,
+        "stop" : 1554609172678,
+        "duration" : 214
+      }
+    } ]
+  },
+  "9214b8f5ee8b2a0044b743439ef017e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d693b06ed64cce00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609171778,
+        "stop" : 1554609171899,
+        "duration" : 121
+      }
+    } ]
+  }
+}

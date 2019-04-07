@@ -1,0 +1,66 @@
+{
+  "uid" : "1ea608454ed12710",
+  "name" : "test_user_regist.Test_loaduserinfo.test_loaduserinfo",
+  "fullName" : "user.test_user_regist.Test_loaduserinfo.test_loaduserinfo",
+  "historyId" : "dc5a651a36adc745469a3582e7d12ab2",
+  "time" : {
+    "start" : 1554609172294,
+    "stop" : 1554609172352,
+    "duration" : 58
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "下载用户信息(登录用户)"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "吱吱吖的惠普"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "下载用户信息成功"
+  }, {
+    "name" : "thread",
+    "value" : "14060-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "user"
+  }, {
+    "name" : "testClass",
+    "value" : "user"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_user_regist.Test_loaduserinfo.test_loaduserinfo"
+  }, {
+    "name" : "package",
+    "value" : "user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ea608454ed12710.json",
+  "parameterValues" : [ ]
+}

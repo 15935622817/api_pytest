@@ -1,0 +1,66 @@
+{
+  "uid" : "c383fae51fe245a",
+  "name" : "test_user_regist.Test_register.test_login_success",
+  "fullName" : "user.test_user_regist.Test_register.test_login_success",
+  "historyId" : "c9d1512d3279739bd6cf2b06aa3c18af",
+  "time" : {
+    "start" : 1554609172464,
+    "stop" : 1554609172678,
+    "duration" : 214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "吱吱吖的惠普"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "thread",
+    "value" : "14060-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "user"
+  }, {
+    "name" : "testClass",
+    "value" : "user"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_user_regist.Test_register.test_login_success"
+  }, {
+    "name" : "package",
+    "value" : "user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c383fae51fe245a.json",
+  "parameterValues" : [ ]
+}

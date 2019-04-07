@@ -1,0 +1,72 @@
+{
+  "uid" : "aa6698c8a0a628bd",
+  "name" : "test_user_regist.Test_loaduserlist.test_loaduserlist",
+  "fullName" : "user.test_user_regist.Test_loaduserlist.test_loaduserlist",
+  "historyId" : "1070bb5d0880c259a5c7c362abbae50b",
+  "time" : {
+    "start" : 1554609172352,
+    "stop" : 1554609172399,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '52890543' == 'zhizhi'\n  - 52890543\n  + zhizhi",
+  "statusTrace" : "self = <user.test_user_loaduserlist.Test_loaduserlist object at 0x0000016B2B73E4A8>\n\n    @allure.story('下载列表信息成功')\n    def test_loaduserlist(self):\n        register_url=\"/user/loadUserList\"\n        data={'token':commonData.token,#调用commmon获取token\n              'pageSize':'30',\n              'pageCourrent':1\n              }\n        resp_loaduserlist=http.post(register_url,data)\n        assert resp_loaduserlist['code']==200\n>       assert resp_loaduserlist['object']['list'][0]['nickName']=='zhizhi'\nE       AssertionError: assert '52890543' == 'zhizhi'\nE         - 52890543\nE         + zhizhi\n\nuser\\test_user_loaduserlist.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "下载用户列表模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "吱吱吖的惠普"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "下载列表信息成功"
+  }, {
+    "name" : "thread",
+    "value" : "14060-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "user"
+  }, {
+    "name" : "testClass",
+    "value" : "user"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_user_regist.Test_loaduserlist.test_loaduserlist"
+  }, {
+    "name" : "package",
+    "value" : "user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aa6698c8a0a628bd.json",
+  "parameterValues" : [ ]
+}

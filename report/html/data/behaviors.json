@@ -1,0 +1,169 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login.Test_login.test_login",
+    "uid" : "d693b06ed64cce00",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1554609171778,
+      "stop" : 1554609171899,
+      "duration" : 121
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "修改密码模块",
+    "children" : [ {
+      "name" : "修改密码成功",
+      "children" : [ {
+        "name" : "test_sys_changepwd.Test_changepwd.test_changpwd",
+        "uid" : "d847a0ab260fa425",
+        "parentUid" : "a38462b3f4314282ccc0eb63786aa59e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609171900,
+          "stop" : 1554609171961,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a38462b3f4314282ccc0eb63786aa59e"
+    } ],
+    "uid" : "305a3b4fed53266ad019359911e11777"
+  }, {
+    "name" : "登陆模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "test_sys_login.Test_login.test_login_success",
+        "uid" : "2d28c3cd86ed17d",
+        "parentUid" : "5a89baa7097474b420da656558883cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609172021,
+          "stop" : 1554609172064,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_loaduserinfo.Test_login.test_login_success",
+        "uid" : "7de34c42c6934b4a",
+        "parentUid" : "5a89baa7097474b420da656558883cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609172065,
+          "stop" : 1554609172124,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a89baa7097474b420da656558883cef"
+    } ],
+    "uid" : "aabb69485063425b718b057ab51a7a51"
+  }, {
+    "name" : "下载用户信息(登录用户)",
+    "children" : [ {
+      "name" : "下载用户信息成功",
+      "children" : [ {
+        "name" : "test_user_loaduserinfo.Test_loaduserinfo.test_loaduserinfo",
+        "uid" : "75caf894feb40b3c",
+        "parentUid" : "2924deaed6db4fb58889c79fc6d75535",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609172127,
+          "stop" : 1554609172191,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_regist.Test_loaduserinfo.test_loaduserinfo",
+        "uid" : "1ea608454ed12710",
+        "parentUid" : "2924deaed6db4fb58889c79fc6d75535",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609172294,
+          "stop" : 1554609172352,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2924deaed6db4fb58889c79fc6d75535"
+    } ],
+    "uid" : "546d45b58b105842b19b1b7a29de4c33"
+  }, {
+    "name" : "下载用户列表模块",
+    "children" : [ {
+      "name" : "下载列表信息成功",
+      "children" : [ {
+        "name" : "test_user_loaduserlist.Test_loaduserlist.test_loaduserlist",
+        "uid" : "935eb274979d8dad",
+        "parentUid" : "b6ea09b4ef3b2d9e1c05f1efff3fed71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609172194,
+          "stop" : 1554609172293,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_regist.Test_loaduserlist.test_loaduserlist",
+        "uid" : "aa6698c8a0a628bd",
+        "parentUid" : "b6ea09b4ef3b2d9e1c05f1efff3fed71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609172352,
+          "stop" : 1554609172399,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6ea09b4ef3b2d9e1c05f1efff3fed71"
+    } ],
+    "uid" : "e184af29ca31012ca94e9586165d7db7"
+  }, {
+    "name" : "注册模块",
+    "children" : [ {
+      "name" : "注册成功",
+      "children" : [ {
+        "name" : "test_user_regist.Test_register.test_register_success",
+        "uid" : "ce93cb522c62c23c",
+        "parentUid" : "d5ee94ade2eb61661c2b736fb886145e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609172401,
+          "stop" : 1554609172463,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5ee94ade2eb61661c2b736fb886145e"
+    }, {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "test_user_regist.Test_register.test_login_success",
+        "uid" : "c383fae51fe245a",
+        "parentUid" : "4e7a879ca589d793f2090ed2e207b04f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609172464,
+          "stop" : 1554609172678,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e7a879ca589d793f2090ed2e207b04f"
+    } ],
+    "uid" : "76e5fd360fd49f5d26aa0e7d1dc18c5c"
+  } ]
+}

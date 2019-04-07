@@ -1,0 +1,72 @@
+{
+  "uid" : "ce93cb522c62c23c",
+  "name" : "test_user_regist.Test_register.test_register_success",
+  "fullName" : "user.test_user_regist.Test_register.test_register_success",
+  "historyId" : "c5a3ee7fcc18977bde48160ab08ceeea",
+  "time" : {
+    "start" : 1554609172401,
+    "stop" : 1554609172463,
+    "duration" : 62
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 401",
+  "statusTrace" : "self = <user.test_user_regist.Test_register object at 0x0000016B2B76B940>\n\n    @allure.story('注册成功')\n    def test_register_success(self):\n        register_url=\"/user/saveOrUpdateUser\"\n        nickname=str(random.randint(10000000,100000000))\n        mobile='135'+nickname\n        # print(\"手机号时\",mobile)\n        data={'token':commonData.token,\n              \"nickName\": \"zhizhi\",\n              \"userName\":mobile}\n        resp_resgister=http.post(register_url,data)\n        # commonData.userId = resp_resgister['object']['userId']\n>       assert resp_resgister['code']==401\nE       assert 200 == 401\n\nuser\\test_user_regist.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "吱吱吖的惠普"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "注册成功"
+  }, {
+    "name" : "thread",
+    "value" : "14060-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "user"
+  }, {
+    "name" : "testClass",
+    "value" : "user"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_user_regist.Test_register.test_register_success"
+  }, {
+    "name" : "package",
+    "value" : "user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ce93cb522c62c23c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '52890543' == 'zhizhi'\n  - 52890543\n  + zhizhi",
+      "children" : [ {
+        "name" : "test_user_loaduserlist.Test_loaduserlist.test_loaduserlist",
+        "uid" : "935eb274979d8dad",
+        "parentUid" : "2b019eca12c298572cb7960dfcfc28a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609172194,
+          "stop" : 1554609172293,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_regist.Test_loaduserlist.test_loaduserlist",
+        "uid" : "aa6698c8a0a628bd",
+        "parentUid" : "2b019eca12c298572cb7960dfcfc28a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609172352,
+          "stop" : 1554609172399,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b019eca12c298572cb7960dfcfc28a4"
+    }, {
+      "name" : "AssertionError: assert 200 == 401",
+      "children" : [ {
+        "name" : "test_user_regist.Test_register.test_register_success",
+        "uid" : "ce93cb522c62c23c",
+        "parentUid" : "eb06ff2919105c8213dbb87af9f2ebc1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609172401,
+          "stop" : 1554609172463,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb06ff2919105c8213dbb87af9f2ebc1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
