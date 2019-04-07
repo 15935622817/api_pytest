@@ -1,12 +1,12 @@
 {
-  "uid" : "d847a0ab260fa425",
-  "name" : "test_sys_changepwd.Test_changepwd.test_changpwd",
-  "fullName" : "testsys.test_sys_changepwd.Test_changepwd.test_changpwd",
-  "historyId" : "79713b142bbc24bb57d814bcd0d504ca",
+  "uid" : "7199a425a1c53173",
+  "name" : "test_sys_login.Test_login.test_login_success",
+  "fullName" : "testsys.test_sys_login.Test_login.test_login_success",
+  "historyId" : "42712150df8679126f0bec24a61fc470",
   "time" : {
-    "start" : 1554609171900,
-    "stop" : 1554609171961,
-    "duration" : 61
+    "start" : 1554630393445,
+    "stop" : 1554630393481,
+    "duration" : 36
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,7 +16,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "修改密码模块"
+    "value" : "登陆模块"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -31,10 +31,10 @@
     "value" : "normal"
   }, {
     "name" : "story",
-    "value" : "修改密码成功"
+    "value" : "登录成功"
   }, {
     "name" : "thread",
-    "value" : "14060-MainThread"
+    "value" : "21388-MainThread"
   }, {
     "name" : "suite",
     "value" : "testsys"
@@ -43,7 +43,7 @@
     "value" : "testsys"
   }, {
     "name" : "testMethod",
-    "value" : "test_sys_changepwd.Test_changepwd.test_changpwd"
+    "value" : "test_sys_login.Test_login.test_login_success"
   }, {
     "name" : "package",
     "value" : "testsys"
@@ -61,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d847a0ab260fa425.json",
+  "source" : "7199a425a1c53173.json",
   "parameterValues" : [ ]
 }

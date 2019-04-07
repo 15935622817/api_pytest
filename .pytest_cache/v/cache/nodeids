@@ -1,0 +1,13 @@
+[
+  "testcase/test_login.py::Test_login::()::test_login",
+  "testsys/test_sys_changepwd.py::Test_changepwd::()::test_changpwd",
+  "testsys/test_sys_changepwd.py::Test_login::()::test_login_success",
+  "testsys/test_sys_login.py::Test_login::()::test_login_success",
+  "user/test_user_loaduserinfo.py::Test_login::()::test_login_success",
+  "user/test_user_loaduserinfo.py::Test_loaduserinfo::()::test_loaduserinfo",
+  "user/test_user_loaduserlist.py::Test_loaduserlist::()::test_loaduserlist",
+  "user/test_user_regist.py::Test_loaduserinfo::()::test_loaduserinfo",
+  "user/test_user_regist.py::Test_loaduserlist::()::test_loaduserlist",
+  "user/test_user_regist.py::Test_register::()::test_register_success",
+  "user/test_user_regist.py::Test_register::()::test_login_success"
+]

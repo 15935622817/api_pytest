@@ -1,12 +1,12 @@
 {
-  "uid" : "7de34c42c6934b4a",
+  "uid" : "932642cd7f7baf9d",
   "name" : "test_user_loaduserinfo.Test_login.test_login_success",
   "fullName" : "user.test_user_loaduserinfo.Test_login.test_login_success",
   "historyId" : "ace158534d850380e8042a1272ac1de4",
   "time" : {
-    "start" : 1554609172065,
-    "stop" : 1554609172124,
-    "duration" : 59
+    "start" : 1554630393483,
+    "stop" : 1554630393519,
+    "duration" : 36
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -34,7 +34,7 @@
     "value" : "登录成功"
   }, {
     "name" : "thread",
-    "value" : "14060-MainThread"
+    "value" : "21388-MainThread"
   }, {
     "name" : "suite",
     "value" : "user"
@@ -61,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7de34c42c6934b4a.json",
+  "source" : "932642cd7f7baf9d.json",
   "parameterValues" : [ ]
 }

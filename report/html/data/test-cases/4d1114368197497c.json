@@ -1,12 +1,12 @@
 {
-  "uid" : "75caf894feb40b3c",
-  "name" : "test_user_loaduserinfo.Test_loaduserinfo.test_loaduserinfo",
-  "fullName" : "user.test_user_loaduserinfo.Test_loaduserinfo.test_loaduserinfo",
-  "historyId" : "3c92835ef1dceebb0e9f61f4bcdede6a",
+  "uid" : "4d1114368197497c",
+  "name" : "test_user_regist.Test_loaduserinfo.test_loaduserinfo",
+  "fullName" : "user.test_user_regist.Test_loaduserinfo.test_loaduserinfo",
+  "historyId" : "dc5a651a36adc745469a3582e7d12ab2",
   "time" : {
-    "start" : 1554609172127,
-    "stop" : 1554609172191,
-    "duration" : 64
+    "start" : 1554630393645,
+    "stop" : 1554630393706,
+    "duration" : 61
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -34,7 +34,7 @@
     "value" : "下载用户信息成功"
   }, {
     "name" : "thread",
-    "value" : "14060-MainThread"
+    "value" : "21388-MainThread"
   }, {
     "name" : "suite",
     "value" : "user"
@@ -43,7 +43,7 @@
     "value" : "user"
   }, {
     "name" : "testMethod",
-    "value" : "test_user_loaduserinfo.Test_loaduserinfo.test_loaduserinfo"
+    "value" : "test_user_regist.Test_loaduserinfo.test_loaduserinfo"
   }, {
     "name" : "package",
     "value" : "user"
@@ -61,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "75caf894feb40b3c.json",
+  "source" : "4d1114368197497c.json",
   "parameterValues" : [ ]
 }

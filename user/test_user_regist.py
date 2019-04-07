@@ -19,7 +19,7 @@ class Test_register():
               "userName":mobile}
         resp_resgister=http.post(register_url,data)
         # commonData.userId = resp_resgister['object']['userId']
-        assert resp_resgister['code']==401
+        assert resp_resgister['code']==200
         print('注册成功')
         print(resp_resgister)
     @allure.story('登录成功')

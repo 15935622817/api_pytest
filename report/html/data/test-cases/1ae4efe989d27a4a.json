@@ -1,18 +1,16 @@
 {
-  "uid" : "935eb274979d8dad",
+  "uid" : "1ae4efe989d27a4a",
   "name" : "test_user_loaduserlist.Test_loaduserlist.test_loaduserlist",
   "fullName" : "user.test_user_loaduserlist.Test_loaduserlist.test_loaduserlist",
   "historyId" : "768fb3a0e133be2deb798e4397afa27f",
   "time" : {
-    "start" : 1554609172194,
-    "stop" : 1554609172293,
-    "duration" : 99
+    "start" : 1554630393607,
+    "stop" : 1554630393644,
+    "duration" : 37
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "failed",
-  "statusMessage" : "AssertionError: assert '52890543' == 'zhizhi'\n  - 52890543\n  + zhizhi",
-  "statusTrace" : "self = <user.test_user_loaduserlist.Test_loaduserlist object at 0x0000016B2B73D5C0>\n\n    @allure.story('下载列表信息成功')\n    def test_loaduserlist(self):\n        register_url=\"/user/loadUserList\"\n        data={'token':commonData.token,#调用commmon获取token\n              'pageSize':'30',\n              'pageCourrent':1\n              }\n        resp_loaduserlist=http.post(register_url,data)\n        assert resp_loaduserlist['code']==200\n>       assert resp_loaduserlist['object']['list'][0]['nickName']=='zhizhi'\nE       AssertionError: assert '52890543' == 'zhizhi'\nE         - 52890543\nE         + zhizhi\n\nuser\\test_user_loaduserlist.py:15: AssertionError",
+  "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +34,7 @@
     "value" : "下载列表信息成功"
   }, {
     "name" : "thread",
-    "value" : "14060-MainThread"
+    "value" : "21388-MainThread"
   }, {
     "name" : "suite",
     "value" : "user"
@@ -60,13 +58,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "935eb274979d8dad.json",
+  "source" : "1ae4efe989d27a4a.json",
   "parameterValues" : [ ]
 }

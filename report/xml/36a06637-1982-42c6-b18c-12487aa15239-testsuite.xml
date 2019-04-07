@@ -1,0 +1,18 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554636504616" stop="1554636504773">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554636504616" status="passed" stop="1554636504773">
+      <name>test_login.Test_login.test_login</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

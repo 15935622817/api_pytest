@@ -1,0 +1,7 @@
+{
+  "sys/test_sys_login.py": true,
+  "testcase/test_login.py::Test_Lx::()::test_login": true,
+  "testcase/test_mycase.py::test_six": true,
+  "user/test_user_loaduserlist.py::Test_loaduserlist::()::test_loaduserlist": true,
+  "user/test_user_regist.py::Test_loaduserlist::()::test_loaduserlist": true
+}

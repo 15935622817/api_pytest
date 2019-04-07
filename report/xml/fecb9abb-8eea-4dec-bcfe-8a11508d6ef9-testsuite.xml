@@ -1,0 +1,148 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554636505018" stop="1554636505764">
+  <name>user</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554636505018" status="passed" stop="1554636505130">
+      <name>test_user_loaduserinfo.Test_login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登陆模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636505135" status="passed" stop="1554636505200">
+      <name>test_user_loaduserinfo.Test_loaduserinfo.test_loaduserinfo</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="下载用户信息(登录用户)"/>
+        <label name="story" value="下载用户信息成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636505201" status="failed" stop="1554636505303">
+      <name>test_user_loaduserlist.Test_loaduserlist.test_loaduserlist</name>
+      <failure>
+        <message>AssertionError: assert '25401805' == 'zhizhi'
+  - 25401805
+  + zhizhi</message>
+        <stack-trace>self = &lt;user.test_user_loaduserlist.Test_loaduserlist object at 0x000001883DCDF630&gt;
+
+    @allure.story('下载列表信息成功')
+    def test_loaduserlist(self):
+        register_url="/user/loadUserList"
+        data={'token':commonData.token,#调用commmon获取token
+              'pageSize':'30',
+              'pageCourrent':1
+              }
+        resp_loaduserlist=http.post(register_url,data)
+        assert resp_loaduserlist['code']==200
+&gt;       assert resp_loaduserlist['object']['list'][0]['nickName']=='zhizhi'
+E       AssertionError: assert '25401805' == 'zhizhi'
+E         - 25401805
+E         + zhizhi
+
+user\test_user_loaduserlist.py:15: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="下载用户列表模块"/>
+        <label name="story" value="下载列表信息成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636505303" status="passed" stop="1554636505499">
+      <name>test_user_regist.Test_loaduserinfo.test_loaduserinfo</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="下载用户信息(登录用户)"/>
+        <label name="story" value="下载用户信息成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636505500" status="failed" stop="1554636505543">
+      <name>test_user_regist.Test_loaduserlist.test_loaduserlist</name>
+      <failure>
+        <message>AssertionError: assert '25401805' == 'zhizhi'
+  - 25401805
+  + zhizhi</message>
+        <stack-trace>self = &lt;user.test_user_loaduserlist.Test_loaduserlist object at 0x000001883DCEC828&gt;
+
+    @allure.story('下载列表信息成功')
+    def test_loaduserlist(self):
+        register_url="/user/loadUserList"
+        data={'token':commonData.token,#调用commmon获取token
+              'pageSize':'30',
+              'pageCourrent':1
+              }
+        resp_loaduserlist=http.post(register_url,data)
+        assert resp_loaduserlist['code']==200
+&gt;       assert resp_loaduserlist['object']['list'][0]['nickName']=='zhizhi'
+E       AssertionError: assert '25401805' == 'zhizhi'
+E         - 25401805
+E         + zhizhi
+
+user\test_user_loaduserlist.py:15: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="下载用户列表模块"/>
+        <label name="story" value="下载列表信息成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636505545" status="passed" stop="1554636505592">
+      <name>test_user_regist.Test_register.test_register_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="注册成功"/>
+        <label name="feature" value="注册模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636505593" status="passed" stop="1554636505764">
+      <name>test_user_regist.Test_register.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="登录成功"/>
+        <label name="feature" value="注册模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

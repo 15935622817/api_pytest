@@ -4,10 +4,10 @@
     "uid" : "360525663768bab144fd381f0b82e654",
     "name" : "user",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 7,
       "unknown" : 0,
       "total" : 7
     }

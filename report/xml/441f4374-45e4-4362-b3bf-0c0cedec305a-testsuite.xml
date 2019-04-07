@@ -1,0 +1,48 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554636504775" stop="1554636505017">
+  <name>testsys</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554636504775" status="passed" stop="1554636504891">
+      <name>test_sys_changepwd.Test_changepwd.test_changpwd</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="修改密码成功"/>
+        <label name="feature" value="修改密码模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636504936" status="passed" stop="1554636504983">
+      <name>test_sys_changepwd.Test_login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登陆模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554636504984" status="passed" stop="1554636505017">
+      <name>test_sys_login.Test_login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登陆模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2756-MainThread"/>
+        <label name="host" value="吱吱吖的惠普"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

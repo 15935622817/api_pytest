@@ -4,23 +4,12 @@
     "uid" : "76e5fd360fd49f5d26aa0e7d1dc18c5c",
     "name" : "注册模块",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "e184af29ca31012ca94e9586165d7db7",
-    "name" : "下载用户列表模块",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
     }
   }, {
     "uid" : "305a3b4fed53266ad019359911e11777",
@@ -47,6 +36,17 @@
   }, {
     "uid" : "546d45b58b105842b19b1b7a29de4c33",
     "name" : "下载用户信息(登录用户)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e184af29ca31012ca94e9586165d7db7",
+    "name" : "下载用户列表模块",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

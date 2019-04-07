@@ -1,12 +1,12 @@
 {
-  "uid" : "d693b06ed64cce00",
-  "name" : "test_login.Test_login.test_login",
-  "fullName" : "testcase.test_login.Test_login.test_login",
-  "historyId" : "9214b8f5ee8b2a0044b743439ef017e4",
+  "uid" : "7869c9196f18d061",
+  "name" : "test_user_regist.Test_register.test_login_success",
+  "fullName" : "user.test_user_regist.Test_register.test_login_success",
+  "historyId" : "c9d1512d3279739bd6cf2b06aa3c18af",
   "time" : {
-    "start" : 1554609171778,
-    "stop" : 1554609171899,
-    "duration" : 121
+    "start" : 1554630393809,
+    "stop" : 1554630393957,
+    "duration" : 148
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,6 +15,9 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
     "name" : "framework",
     "value" : "pytest"
   }, {
@@ -27,20 +30,23 @@
     "name" : "severity",
     "value" : "normal"
   }, {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
     "name" : "thread",
-    "value" : "14060-MainThread"
+    "value" : "21388-MainThread"
   }, {
     "name" : "suite",
-    "value" : "testcase"
+    "value" : "user"
   }, {
     "name" : "testClass",
-    "value" : "testcase"
+    "value" : "user"
   }, {
     "name" : "testMethod",
-    "value" : "test_login.Test_login.test_login"
+    "value" : "test_user_regist.Test_register.test_login_success"
   }, {
     "name" : "package",
-    "value" : "testcase"
+    "value" : "user"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -55,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d693b06ed64cce00.json",
+  "source" : "7869c9196f18d061.json",
   "parameterValues" : [ ]
 }

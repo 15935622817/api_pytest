@@ -2,14 +2,18 @@ from common.commonData import commonData
 from conftest import http
 import pytest
 import allure
+from  testsys.test_sys_login  import Test_login
 # @pytest.mark.debug
 
 @allure.feature("修改密码模块")
 class  Test_changepwd():
+    id = Test_login().test_login_success()
+    print('fffffffffff',id)
     @allure.story('修改密码成功')
     @pytest.mark.usefixtures("test_repassword")
     def test_changpwd(self):
         changpwdurl="/sys/changePwd"
+
         data = {'token':commonData.token,
                 'userId':1,
                 'userName':'15935622817',
@@ -33,6 +37,6 @@ class  Test_changepwd():
                 'password': '123456'
                 }
         print(data)
-        chanpwd = http.post(repwdurl, data)
-        assert chanpwd['code'] == 200
+        rechanpwd = http.post(repwdurl, data)
+        assert rechanpwd['code'] == 200
         print("密码恢复成功")

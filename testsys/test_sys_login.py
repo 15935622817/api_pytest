@@ -2,7 +2,7 @@ from common.commonData import commonData
 from conftest import http
 import  allure
 @allure.feature("登陆模块")
-class Test_login():
+class Test_login:
     @allure.story('登录成功')
     def test_login_success(this):
             path = '/sys/login'
